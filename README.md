@@ -41,19 +41,11 @@ attack surface → reachability → broken invariant → controlled reproduction
 
 ## Systems exploitation foundation
 
-[**Dreamhack · Amemoyoi**](https://dreamhack.io/users/71306) · [Long-form project record](https://whoami-iota-gilt.vercel.app/3c97c60c09f3810dbf87dc57e6603f3e)
+[**Dreamhack · Amemoyoi**](https://dreamhack.io/users/71306) · [Interactive solve activity · 93 active days](https://whoami-iota-gilt.vercel.app/api/notion-asset?block=2ecf12c7-fa1c-4263-a1b7-c766e623746c&src=attachment%3A4d200bcc-e894-4efd-b049-26bf752fbb4b%3Adreamhack-all-solves-activity.html) · [Long-form project record](https://whoami-iota-gilt.vercel.app/3c97c60c09f3810dbf87dc57e6603f3e)
 
 - **154 Pwnable challenges** solved across memory corruption, ROP/SROP, heap exploitation, glibc/FSOP, ARM/AArch64, and Linux kernel exploitation
 - **4,901 Wargame points** · reached the overall **Top 300** during the project · 259 analysis, experiment, and troubleshooting records retained
 - Progressed from user-space primitives to controlled kernel AAR/AAW and `cred` overwrite in Dreamhack's educational environments
-
-<p align="center">
-  <a href="https://whoami-iota-gilt.vercel.app/3c97c60c09f3810dbf87dc57e6603f3e">
-    <img src="./assets/dreamhack-activity.svg" alt="Dreamhack activity snapshot: 176 solves across 93 active days from March 2025 to January 2026" width="100%" />
-  </a>
-</p>
-
-<sub>Fixed activity snapshot through 2026-01-14: 176 solves across all categories on 93 active days. The 154 figure above is the Pwnable subset recorded at project completion.</sub>
 
 ## Research interests
 
