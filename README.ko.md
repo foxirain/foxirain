@@ -41,11 +41,15 @@ Linux Kernel, 오픈소스, AI 에이전트 시스템, Windows Kernel, 임베디
 
 ## 시스템 익스플로잇 기반
 
-[**Dreamhack · Amemoyoi**](https://dreamhack.io/users/71306) · [인터랙티브 풀이 활동 · 93일](https://whoami-iota-gilt.vercel.app/api/notion-asset?block=2ecf12c7-fa1c-4263-a1b7-c766e623746c&src=attachment%3A4d200bcc-e894-4efd-b049-26bf752fbb4b%3Adreamhack-all-solves-activity.html) · [장기 프로젝트 기록](https://whoami-iota-gilt.vercel.app/3c97c60c09f3810dbf87dc57e6603f3e)
+[**Dreamhack · Amemoyoi**](https://dreamhack.io/users/71306) · [장기 프로젝트 기록](https://whoami-iota-gilt.vercel.app/3c97c60c09f3810dbf87dc57e6603f3e)
 
 - Memory Corruption, ROP/SROP, Heap, glibc/FSOP, ARM/AArch64, Linux Kernel Exploit에 걸쳐 **Pwnable 154문제** 해결
 - **Wargame 4,901점** · 프로젝트 당시 전체 **Top 300** 진입 · 분석·실험·트러블슈팅 기록 259개 보관
 - Dreamhack 교육 환경에서 user-space primitive부터 Kernel AAR/AAW와 `cred` overwrite까지 단계적으로 확장
+
+<p align="center">
+  <img src="./assets/dreamhack-activity-4x.png" alt="2025년 3월부터 2026년 1월까지 Dreamhack 문제 풀이 활동: 93일 동안 176문제 해결" width="100%" />
+</p>
 
 ## 관심 연구 분야
 
