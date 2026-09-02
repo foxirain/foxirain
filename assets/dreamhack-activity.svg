@@ -1,0 +1,704 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="350" viewBox="0 0 1000 350" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title description">
+<title id="title">Dreamhack 문제 풀이 활동 기록</title>
+<desc id="description">2025-03-01부터 2026-01-14까지 Dreamhack에서 실제 문제를 해결한 날짜를 나타낸 활동 그래프입니다. 분야 구분 없이 총 176개를 해결했고, 활동일은 93일이며 최장 연속 기록은 10일입니다.</desc>
+<rect width="1000" height="350" fill="#ffffff"/>
+<style>
+.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR","Apple SD Gothic Neo",sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace}.muted{fill:#7a8494}.main{fill:#24292f}.green{fill:#16a34a}.medium{font-weight:600}.cell{shape-rendering:geometricPrecision;transition:stroke .12s ease,stroke-width .12s ease}a{cursor:pointer}a:hover .cell,a:focus .cell{stroke:#2563eb;stroke-width:2}.detail{display:none}.detail:target{display:inline}
+</style>
+<text x="32" y="32" class="mono green" font-size="12">~/dreamhack/activity.log</text>
+<text x="32" y="66" class="mono main medium" font-size="27" letter-spacing="-0.45">176 DREAMHACK SOLVES</text>
+<text x="968" y="64" text-anchor="end" class="mono muted" font-size="12">2025.03.01 — 2026.01.14</text>
+<line x1="32" y1="84" x2="968" y2="84" stroke="#e3e7ec" stroke-width="1"/>
+<text x="32" y="111" class="mono main medium" font-size="20">93</text>
+<text x="32" y="128" class="mono muted" font-size="11">ACTIVE DAYS</text>
+<text x="205" y="111" class="mono main medium" font-size="20">10 DAYS</text>
+<text x="205" y="128" class="mono muted" font-size="11">LONGEST STREAK</text>
+<text x="378" y="111" class="mono main medium" font-size="20">9</text>
+<text x="378" y="128" class="mono muted" font-size="11">MAX SOLVES / DAY</text>
+<text x="58.00" y="143" class="mono muted" font-size="10">MAR</text>
+<text x="155.13" y="143" class="mono muted" font-size="10">APR</text>
+<text x="232.83" y="143" class="mono muted" font-size="10">MAY</text>
+<text x="329.96" y="143" class="mono muted" font-size="10">JUN</text>
+<text x="407.66" y="143" class="mono muted" font-size="10">JUL</text>
+<text x="485.36" y="143" class="mono muted" font-size="10">AUG</text>
+<text x="582.49" y="143" class="mono muted" font-size="10">SEP</text>
+<text x="660.19" y="143" class="mono muted" font-size="10">OCT</text>
+<text x="737.89" y="143" class="mono muted" font-size="10">NOV</text>
+<text x="835.02" y="143" class="mono muted" font-size="10">DEC</text>
+<text x="912.72" y="143" class="mono muted" font-size="10">JAN</text>
+<text x="32" y="183.58" class="mono muted" font-size="9">MON</text>
+<text x="32" y="222.43" class="mono muted" font-size="9">WED</text>
+<text x="32" y="261.28" class="mono muted" font-size="9">FRI</text>
+<g><title>2025-02-23 · 0 solves</title><rect class="cell" x="58.00" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-02-24 · 0 solves</title><rect class="cell" x="58.00" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-02-25 · 0 solves</title><rect class="cell" x="58.00" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-02-26 · 0 solves</title><rect class="cell" x="58.00" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-02-27 · 0 solves</title><rect class="cell" x="58.00" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-02-28 · 0 solves</title><rect class="cell" x="58.00" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-01" aria-label="2025-03-01 · 2 solves"><title>2025-03-01 · 2 solves</title><rect class="cell" x="58.00" y="268.55" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-03-02 · 0 solves</title><rect class="cell" x="77.43" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-03" aria-label="2025-03-03 · 2 solves"><title>2025-03-03 · 2 solves</title><rect class="cell" x="77.43" y="171.43" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-03-04 · 0 solves</title><rect class="cell" x="77.43" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-05 · 0 solves</title><rect class="cell" x="77.43" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-06 · 0 solves</title><rect class="cell" x="77.43" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-07 · 0 solves</title><rect class="cell" x="77.43" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-08 · 0 solves</title><rect class="cell" x="77.43" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-09 · 0 solves</title><rect class="cell" x="96.85" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-03-10 · 0 solves</title><rect class="cell" x="96.85" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-11" aria-label="2025-03-11 · 2 solves"><title>2025-03-11 · 2 solves</title><rect class="cell" x="96.85" y="190.85" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-12" aria-label="2025-03-12 · 2 solves"><title>2025-03-12 · 2 solves</title><rect class="cell" x="96.85" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-03-13 · 0 solves</title><rect class="cell" x="96.85" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-14" aria-label="2025-03-14 · 2 solves"><title>2025-03-14 · 2 solves</title><rect class="cell" x="96.85" y="249.13" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-15" aria-label="2025-03-15 · 2 solves"><title>2025-03-15 · 2 solves</title><rect class="cell" x="96.85" y="268.55" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-16" aria-label="2025-03-16 · 1 solve"><title>2025-03-16 · 1 solve</title><rect class="cell" x="116.28" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-03-17" aria-label="2025-03-17 · 1 solve"><title>2025-03-17 · 1 solve</title><rect class="cell" x="116.28" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-03-18 · 0 solves</title><rect class="cell" x="116.28" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-19" aria-label="2025-03-19 · 2 solves"><title>2025-03-19 · 2 solves</title><rect class="cell" x="116.28" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-20" aria-label="2025-03-20 · 2 solves"><title>2025-03-20 · 2 solves</title><rect class="cell" x="116.28" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-21" aria-label="2025-03-21 · 2 solves"><title>2025-03-21 · 2 solves</title><rect class="cell" x="116.28" y="249.13" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-22" aria-label="2025-03-22 · 9 solves"><title>2025-03-22 · 9 solves</title><rect class="cell" x="116.28" y="268.55" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<g><title>2025-03-23 · 0 solves</title><rect class="cell" x="135.70" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-03-24" aria-label="2025-03-24 · 2 solves"><title>2025-03-24 · 2 solves</title><rect class="cell" x="135.70" y="171.43" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-25" aria-label="2025-03-25 · 2 solves"><title>2025-03-25 · 2 solves</title><rect class="cell" x="135.70" y="190.85" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-26" aria-label="2025-03-26 · 2 solves"><title>2025-03-26 · 2 solves</title><rect class="cell" x="135.70" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-27" aria-label="2025-03-27 · 2 solves"><title>2025-03-27 · 2 solves</title><rect class="cell" x="135.70" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-28" aria-label="2025-03-28 · 6 solves"><title>2025-03-28 · 6 solves</title><rect class="cell" x="135.70" y="249.13" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-03-29" aria-label="2025-03-29 · 1 solve"><title>2025-03-29 · 1 solve</title><rect class="cell" x="135.70" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-03-30" aria-label="2025-03-30 · 2 solves"><title>2025-03-30 · 2 solves</title><rect class="cell" x="155.13" y="152.00" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-03-31" aria-label="2025-03-31 · 1 solve"><title>2025-03-31 · 1 solve</title><rect class="cell" x="155.13" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-04-01" aria-label="2025-04-01 · 2 solves"><title>2025-04-01 · 2 solves</title><rect class="cell" x="155.13" y="190.85" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-04-02" aria-label="2025-04-02 · 2 solves"><title>2025-04-02 · 2 solves</title><rect class="cell" x="155.13" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-04-03 · 0 solves</title><rect class="cell" x="155.13" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-04 · 0 solves</title><rect class="cell" x="155.13" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-05 · 0 solves</title><rect class="cell" x="155.13" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-06 · 0 solves</title><rect class="cell" x="174.55" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-07 · 0 solves</title><rect class="cell" x="174.55" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-08 · 0 solves</title><rect class="cell" x="174.55" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-09 · 0 solves</title><rect class="cell" x="174.55" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-10 · 0 solves</title><rect class="cell" x="174.55" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-11 · 0 solves</title><rect class="cell" x="174.55" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-12 · 0 solves</title><rect class="cell" x="174.55" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-13 · 0 solves</title><rect class="cell" x="193.98" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-14 · 0 solves</title><rect class="cell" x="193.98" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-15 · 0 solves</title><rect class="cell" x="193.98" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-16 · 0 solves</title><rect class="cell" x="193.98" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-17 · 0 solves</title><rect class="cell" x="193.98" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-18 · 0 solves</title><rect class="cell" x="193.98" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-19 · 0 solves</title><rect class="cell" x="193.98" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-20 · 0 solves</title><rect class="cell" x="213.40" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-21 · 0 solves</title><rect class="cell" x="213.40" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-22 · 0 solves</title><rect class="cell" x="213.40" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-23 · 0 solves</title><rect class="cell" x="213.40" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-24 · 0 solves</title><rect class="cell" x="213.40" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-25 · 0 solves</title><rect class="cell" x="213.40" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-26 · 0 solves</title><rect class="cell" x="213.40" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-27 · 0 solves</title><rect class="cell" x="232.83" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-28 · 0 solves</title><rect class="cell" x="232.83" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-29 · 0 solves</title><rect class="cell" x="232.83" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-04-30 · 0 solves</title><rect class="cell" x="232.83" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-01 · 0 solves</title><rect class="cell" x="232.83" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-02 · 0 solves</title><rect class="cell" x="232.83" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-03 · 0 solves</title><rect class="cell" x="232.83" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-04 · 0 solves</title><rect class="cell" x="252.26" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-05 · 0 solves</title><rect class="cell" x="252.26" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-06 · 0 solves</title><rect class="cell" x="252.26" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-07 · 0 solves</title><rect class="cell" x="252.26" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-08 · 0 solves</title><rect class="cell" x="252.26" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-09 · 0 solves</title><rect class="cell" x="252.26" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-10 · 0 solves</title><rect class="cell" x="252.26" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-11 · 0 solves</title><rect class="cell" x="271.68" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-12 · 0 solves</title><rect class="cell" x="271.68" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-13 · 0 solves</title><rect class="cell" x="271.68" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-14 · 0 solves</title><rect class="cell" x="271.68" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-15 · 0 solves</title><rect class="cell" x="271.68" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-16 · 0 solves</title><rect class="cell" x="271.68" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-17 · 0 solves</title><rect class="cell" x="271.68" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-18 · 0 solves</title><rect class="cell" x="291.11" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-19 · 0 solves</title><rect class="cell" x="291.11" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-20 · 0 solves</title><rect class="cell" x="291.11" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-21 · 0 solves</title><rect class="cell" x="291.11" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-22 · 0 solves</title><rect class="cell" x="291.11" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-23 · 0 solves</title><rect class="cell" x="291.11" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-24 · 0 solves</title><rect class="cell" x="291.11" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-25 · 0 solves</title><rect class="cell" x="310.53" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-26 · 0 solves</title><rect class="cell" x="310.53" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-27 · 0 solves</title><rect class="cell" x="310.53" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-28 · 0 solves</title><rect class="cell" x="310.53" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-29 · 0 solves</title><rect class="cell" x="310.53" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-30 · 0 solves</title><rect class="cell" x="310.53" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-05-31 · 0 solves</title><rect class="cell" x="310.53" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-01 · 0 solves</title><rect class="cell" x="329.96" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-02 · 0 solves</title><rect class="cell" x="329.96" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-03 · 0 solves</title><rect class="cell" x="329.96" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-04 · 0 solves</title><rect class="cell" x="329.96" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-05 · 0 solves</title><rect class="cell" x="329.96" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-06 · 0 solves</title><rect class="cell" x="329.96" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-07 · 0 solves</title><rect class="cell" x="329.96" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-08 · 0 solves</title><rect class="cell" x="349.38" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-09 · 0 solves</title><rect class="cell" x="349.38" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-10 · 0 solves</title><rect class="cell" x="349.38" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-11 · 0 solves</title><rect class="cell" x="349.38" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-12 · 0 solves</title><rect class="cell" x="349.38" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-13 · 0 solves</title><rect class="cell" x="349.38" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-14 · 0 solves</title><rect class="cell" x="349.38" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-15 · 0 solves</title><rect class="cell" x="368.81" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-16 · 0 solves</title><rect class="cell" x="368.81" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-17 · 0 solves</title><rect class="cell" x="368.81" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-18 · 0 solves</title><rect class="cell" x="368.81" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-19 · 0 solves</title><rect class="cell" x="368.81" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-20 · 0 solves</title><rect class="cell" x="368.81" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-21 · 0 solves</title><rect class="cell" x="368.81" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-22 · 0 solves</title><rect class="cell" x="388.23" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-23 · 0 solves</title><rect class="cell" x="388.23" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-24 · 0 solves</title><rect class="cell" x="388.23" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-25 · 0 solves</title><rect class="cell" x="388.23" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-26 · 0 solves</title><rect class="cell" x="388.23" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-06-27 · 0 solves</title><rect class="cell" x="388.23" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-06-28" aria-label="2025-06-28 · 2 solves"><title>2025-06-28 · 2 solves</title><rect class="cell" x="388.23" y="268.55" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-06-29" aria-label="2025-06-29 · 1 solve"><title>2025-06-29 · 1 solve</title><rect class="cell" x="407.66" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-06-30 · 0 solves</title><rect class="cell" x="407.66" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-01 · 0 solves</title><rect class="cell" x="407.66" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-07-02" aria-label="2025-07-02 · 5 solves"><title>2025-07-02 · 5 solves</title><rect class="cell" x="407.66" y="210.28" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-07-03" aria-label="2025-07-03 · 2 solves"><title>2025-07-03 · 2 solves</title><rect class="cell" x="407.66" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-07-04 · 0 solves</title><rect class="cell" x="407.66" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-07-05" aria-label="2025-07-05 · 1 solve"><title>2025-07-05 · 1 solve</title><rect class="cell" x="407.66" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-07-06" aria-label="2025-07-06 · 1 solve"><title>2025-07-06 · 1 solve</title><rect class="cell" x="427.09" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-07-07" aria-label="2025-07-07 · 1 solve"><title>2025-07-07 · 1 solve</title><rect class="cell" x="427.09" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-07-08" aria-label="2025-07-08 · 4 solves"><title>2025-07-08 · 4 solves</title><rect class="cell" x="427.09" y="190.85" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-07-09" aria-label="2025-07-09 · 2 solves"><title>2025-07-09 · 2 solves</title><rect class="cell" x="427.09" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-07-10 · 0 solves</title><rect class="cell" x="427.09" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-11 · 0 solves</title><rect class="cell" x="427.09" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-12 · 0 solves</title><rect class="cell" x="427.09" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-07-13" aria-label="2025-07-13 · 1 solve"><title>2025-07-13 · 1 solve</title><rect class="cell" x="446.51" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-07-14 · 0 solves</title><rect class="cell" x="446.51" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-15 · 0 solves</title><rect class="cell" x="446.51" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-16 · 0 solves</title><rect class="cell" x="446.51" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-17 · 0 solves</title><rect class="cell" x="446.51" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-18 · 0 solves</title><rect class="cell" x="446.51" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-19 · 0 solves</title><rect class="cell" x="446.51" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-20 · 0 solves</title><rect class="cell" x="465.94" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-21 · 0 solves</title><rect class="cell" x="465.94" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-07-22 · 0 solves</title><rect class="cell" x="465.94" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-07-23" aria-label="2025-07-23 · 3 solves"><title>2025-07-23 · 3 solves</title><rect class="cell" x="465.94" y="210.28" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-07-24" aria-label="2025-07-24 · 2 solves"><title>2025-07-24 · 2 solves</title><rect class="cell" x="465.94" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-07-25" aria-label="2025-07-25 · 1 solve"><title>2025-07-25 · 1 solve</title><rect class="cell" x="465.94" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-07-26" aria-label="2025-07-26 · 2 solves"><title>2025-07-26 · 2 solves</title><rect class="cell" x="465.94" y="268.55" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-07-27" aria-label="2025-07-27 · 4 solves"><title>2025-07-27 · 4 solves</title><rect class="cell" x="485.36" y="152.00" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-07-28" aria-label="2025-07-28 · 1 solve"><title>2025-07-28 · 1 solve</title><rect class="cell" x="485.36" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-07-29" aria-label="2025-07-29 · 3 solves"><title>2025-07-29 · 3 solves</title><rect class="cell" x="485.36" y="190.85" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-07-30" aria-label="2025-07-30 · 3 solves"><title>2025-07-30 · 3 solves</title><rect class="cell" x="485.36" y="210.28" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<g><title>2025-07-31 · 0 solves</title><rect class="cell" x="485.36" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-01 · 0 solves</title><rect class="cell" x="485.36" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-02 · 0 solves</title><rect class="cell" x="485.36" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-03 · 0 solves</title><rect class="cell" x="504.79" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-08-04" aria-label="2025-08-04 · 2 solves"><title>2025-08-04 · 2 solves</title><rect class="cell" x="504.79" y="171.43" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-08-05" aria-label="2025-08-05 · 3 solves"><title>2025-08-05 · 3 solves</title><rect class="cell" x="504.79" y="190.85" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-08-06" aria-label="2025-08-06 · 2 solves"><title>2025-08-06 · 2 solves</title><rect class="cell" x="504.79" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-08-07" aria-label="2025-08-07 · 1 solve"><title>2025-08-07 · 1 solve</title><rect class="cell" x="504.79" y="229.70" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-08-08" aria-label="2025-08-08 · 1 solve"><title>2025-08-08 · 1 solve</title><rect class="cell" x="504.79" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-08-09" aria-label="2025-08-09 · 1 solve"><title>2025-08-09 · 1 solve</title><rect class="cell" x="504.79" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-08-10" aria-label="2025-08-10 · 1 solve"><title>2025-08-10 · 1 solve</title><rect class="cell" x="524.21" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-08-11 · 0 solves</title><rect class="cell" x="524.21" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-08-12" aria-label="2025-08-12 · 1 solve"><title>2025-08-12 · 1 solve</title><rect class="cell" x="524.21" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-08-13" aria-label="2025-08-13 · 1 solve"><title>2025-08-13 · 1 solve</title><rect class="cell" x="524.21" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-08-14" aria-label="2025-08-14 · 3 solves"><title>2025-08-14 · 3 solves</title><rect class="cell" x="524.21" y="229.70" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-08-15" aria-label="2025-08-15 · 3 solves"><title>2025-08-15 · 3 solves</title><rect class="cell" x="524.21" y="249.13" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-08-16" aria-label="2025-08-16 · 4 solves"><title>2025-08-16 · 4 solves</title><rect class="cell" x="524.21" y="268.55" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-08-17" aria-label="2025-08-17 · 4 solves"><title>2025-08-17 · 4 solves</title><rect class="cell" x="543.64" y="152.00" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<g><title>2025-08-18 · 0 solves</title><rect class="cell" x="543.64" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-19 · 0 solves</title><rect class="cell" x="543.64" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-08-20" aria-label="2025-08-20 · 3 solves"><title>2025-08-20 · 3 solves</title><rect class="cell" x="543.64" y="210.28" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-08-21" aria-label="2025-08-21 · 2 solves"><title>2025-08-21 · 2 solves</title><rect class="cell" x="543.64" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-08-22" aria-label="2025-08-22 · 1 solve"><title>2025-08-22 · 1 solve</title><rect class="cell" x="543.64" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-08-23 · 0 solves</title><rect class="cell" x="543.64" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-24 · 0 solves</title><rect class="cell" x="563.06" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-25 · 0 solves</title><rect class="cell" x="563.06" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-26 · 0 solves</title><rect class="cell" x="563.06" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-27 · 0 solves</title><rect class="cell" x="563.06" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-28 · 0 solves</title><rect class="cell" x="563.06" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-29 · 0 solves</title><rect class="cell" x="563.06" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-30 · 0 solves</title><rect class="cell" x="563.06" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-08-31 · 0 solves</title><rect class="cell" x="582.49" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-09-01" aria-label="2025-09-01 · 1 solve"><title>2025-09-01 · 1 solve</title><rect class="cell" x="582.49" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-09-02 · 0 solves</title><rect class="cell" x="582.49" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-03 · 0 solves</title><rect class="cell" x="582.49" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-04 · 0 solves</title><rect class="cell" x="582.49" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-05 · 0 solves</title><rect class="cell" x="582.49" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-06 · 0 solves</title><rect class="cell" x="582.49" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-07 · 0 solves</title><rect class="cell" x="601.91" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-08 · 0 solves</title><rect class="cell" x="601.91" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-09 · 0 solves</title><rect class="cell" x="601.91" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-10 · 0 solves</title><rect class="cell" x="601.91" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-11 · 0 solves</title><rect class="cell" x="601.91" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-12 · 0 solves</title><rect class="cell" x="601.91" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-13 · 0 solves</title><rect class="cell" x="601.91" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-09-14" aria-label="2025-09-14 · 1 solve"><title>2025-09-14 · 1 solve</title><rect class="cell" x="621.34" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-09-15 · 0 solves</title><rect class="cell" x="621.34" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-09-16" aria-label="2025-09-16 · 1 solve"><title>2025-09-16 · 1 solve</title><rect class="cell" x="621.34" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-09-17 · 0 solves</title><rect class="cell" x="621.34" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-18 · 0 solves</title><rect class="cell" x="621.34" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-19 · 0 solves</title><rect class="cell" x="621.34" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-20 · 0 solves</title><rect class="cell" x="621.34" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-21 · 0 solves</title><rect class="cell" x="640.77" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-22 · 0 solves</title><rect class="cell" x="640.77" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-09-23" aria-label="2025-09-23 · 1 solve"><title>2025-09-23 · 1 solve</title><rect class="cell" x="640.77" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-09-24" aria-label="2025-09-24 · 2 solves"><title>2025-09-24 · 2 solves</title><rect class="cell" x="640.77" y="210.28" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-09-25" aria-label="2025-09-25 · 2 solves"><title>2025-09-25 · 2 solves</title><rect class="cell" x="640.77" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<g><title>2025-09-26 · 0 solves</title><rect class="cell" x="640.77" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-27 · 0 solves</title><rect class="cell" x="640.77" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-28 · 0 solves</title><rect class="cell" x="660.19" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-29 · 0 solves</title><rect class="cell" x="660.19" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-09-30 · 0 solves</title><rect class="cell" x="660.19" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-01 · 0 solves</title><rect class="cell" x="660.19" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-02 · 0 solves</title><rect class="cell" x="660.19" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-03 · 0 solves</title><rect class="cell" x="660.19" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-04 · 0 solves</title><rect class="cell" x="660.19" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-05 · 0 solves</title><rect class="cell" x="679.62" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-06 · 0 solves</title><rect class="cell" x="679.62" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-07 · 0 solves</title><rect class="cell" x="679.62" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-08 · 0 solves</title><rect class="cell" x="679.62" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-09 · 0 solves</title><rect class="cell" x="679.62" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-10 · 0 solves</title><rect class="cell" x="679.62" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-11 · 0 solves</title><rect class="cell" x="679.62" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-12 · 0 solves</title><rect class="cell" x="699.04" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-13 · 0 solves</title><rect class="cell" x="699.04" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-14 · 0 solves</title><rect class="cell" x="699.04" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-15 · 0 solves</title><rect class="cell" x="699.04" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-16 · 0 solves</title><rect class="cell" x="699.04" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-10-17" aria-label="2025-10-17 · 1 solve"><title>2025-10-17 · 1 solve</title><rect class="cell" x="699.04" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-10-18 · 0 solves</title><rect class="cell" x="699.04" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-10-19 · 0 solves</title><rect class="cell" x="718.47" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-10-20" aria-label="2025-10-20 · 1 solve"><title>2025-10-20 · 1 solve</title><rect class="cell" x="718.47" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-10-21" aria-label="2025-10-21 · 1 solve"><title>2025-10-21 · 1 solve</title><rect class="cell" x="718.47" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-10-22" aria-label="2025-10-22 · 1 solve"><title>2025-10-22 · 1 solve</title><rect class="cell" x="718.47" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-10-23 · 0 solves</title><rect class="cell" x="718.47" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-10-24" aria-label="2025-10-24 · 1 solve"><title>2025-10-24 · 1 solve</title><rect class="cell" x="718.47" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-10-25" aria-label="2025-10-25 · 1 solve"><title>2025-10-25 · 1 solve</title><rect class="cell" x="718.47" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-10-26 · 0 solves</title><rect class="cell" x="737.89" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-10-27" aria-label="2025-10-27 · 1 solve"><title>2025-10-27 · 1 solve</title><rect class="cell" x="737.89" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-10-28" aria-label="2025-10-28 · 1 solve"><title>2025-10-28 · 1 solve</title><rect class="cell" x="737.89" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-10-29" aria-label="2025-10-29 · 3 solves"><title>2025-10-29 · 3 solves</title><rect class="cell" x="737.89" y="210.28" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-10-30" aria-label="2025-10-30 · 1 solve"><title>2025-10-30 · 1 solve</title><rect class="cell" x="737.89" y="229.70" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-10-31 · 0 solves</title><rect class="cell" x="737.89" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-01" aria-label="2025-11-01 · 1 solve"><title>2025-11-01 · 1 solve</title><rect class="cell" x="737.89" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-11-02" aria-label="2025-11-02 · 1 solve"><title>2025-11-02 · 1 solve</title><rect class="cell" x="757.32" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-11-03" aria-label="2025-11-03 · 1 solve"><title>2025-11-03 · 1 solve</title><rect class="cell" x="757.32" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-11-04" aria-label="2025-11-04 · 1 solve"><title>2025-11-04 · 1 solve</title><rect class="cell" x="757.32" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-11-05 · 0 solves</title><rect class="cell" x="757.32" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-06 · 0 solves</title><rect class="cell" x="757.32" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-07 · 0 solves</title><rect class="cell" x="757.32" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-08 · 0 solves</title><rect class="cell" x="757.32" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-09 · 0 solves</title><rect class="cell" x="776.74" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-10 · 0 solves</title><rect class="cell" x="776.74" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-11 · 0 solves</title><rect class="cell" x="776.74" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-12 · 0 solves</title><rect class="cell" x="776.74" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-13" aria-label="2025-11-13 · 2 solves"><title>2025-11-13 · 2 solves</title><rect class="cell" x="776.74" y="229.70" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-11-14" aria-label="2025-11-14 · 1 solve"><title>2025-11-14 · 1 solve</title><rect class="cell" x="776.74" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-11-15 · 0 solves</title><rect class="cell" x="776.74" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-16" aria-label="2025-11-16 · 1 solve"><title>2025-11-16 · 1 solve</title><rect class="cell" x="796.17" y="152.00" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-11-17 · 0 solves</title><rect class="cell" x="796.17" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-18 · 0 solves</title><rect class="cell" x="796.17" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-19" aria-label="2025-11-19 · 3 solves"><title>2025-11-19 · 3 solves</title><rect class="cell" x="796.17" y="210.28" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<g><title>2025-11-20 · 0 solves</title><rect class="cell" x="796.17" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-21" aria-label="2025-11-21 · 1 solve"><title>2025-11-21 · 1 solve</title><rect class="cell" x="796.17" y="249.13" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-11-22 · 0 solves</title><rect class="cell" x="796.17" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-23" aria-label="2025-11-23 · 2 solves"><title>2025-11-23 · 2 solves</title><rect class="cell" x="815.60" y="152.00" width="16.43" height="16.43" rx="2" fill="#68cf87"/>
+</a>
+<a href="#day-2025-11-24" aria-label="2025-11-24 · 1 solve"><title>2025-11-24 · 1 solve</title><rect class="cell" x="815.60" y="171.43" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-11-25" aria-label="2025-11-25 · 1 solve"><title>2025-11-25 · 1 solve</title><rect class="cell" x="815.60" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2025-11-26" aria-label="2025-11-26 · 1 solve"><title>2025-11-26 · 1 solve</title><rect class="cell" x="815.60" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-11-27 · 0 solves</title><rect class="cell" x="815.60" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-28 · 0 solves</title><rect class="cell" x="815.60" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-11-29 · 0 solves</title><rect class="cell" x="815.60" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-11-30" aria-label="2025-11-30 · 7 solves"><title>2025-11-30 · 7 solves</title><rect class="cell" x="835.02" y="152.00" width="16.43" height="16.43" rx="2" fill="#15803d"/>
+</a>
+<a href="#day-2025-12-01" aria-label="2025-12-01 · 3 solves"><title>2025-12-01 · 3 solves</title><rect class="cell" x="835.02" y="171.43" width="16.43" height="16.43" rx="2" fill="#2fb85d"/>
+</a>
+<a href="#day-2025-12-02" aria-label="2025-12-02 · 1 solve · kpwnote · first Kernel Exploit"><title>2025-12-02 · 1 solve · kpwnote · first Kernel Exploit</title><rect class="cell" x="835.02" y="190.85" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+<polygon points="850.45,191.85 850.45,196.85 845.45,191.85" fill="#2563eb"/>
+</a>
+<a href="#day-2025-12-03" aria-label="2025-12-03 · 1 solve"><title>2025-12-03 · 1 solve</title><rect class="cell" x="835.02" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2025-12-04 · 0 solves</title><rect class="cell" x="835.02" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-05 · 0 solves</title><rect class="cell" x="835.02" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-06 · 0 solves</title><rect class="cell" x="835.02" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-07 · 0 solves</title><rect class="cell" x="854.45" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-08 · 0 solves</title><rect class="cell" x="854.45" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-09 · 0 solves</title><rect class="cell" x="854.45" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-10 · 0 solves</title><rect class="cell" x="854.45" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-11 · 0 solves</title><rect class="cell" x="854.45" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-12 · 0 solves</title><rect class="cell" x="854.45" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-13 · 0 solves</title><rect class="cell" x="854.45" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-14 · 0 solves</title><rect class="cell" x="873.87" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-15 · 0 solves</title><rect class="cell" x="873.87" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-16 · 0 solves</title><rect class="cell" x="873.87" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-17 · 0 solves</title><rect class="cell" x="873.87" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-18 · 0 solves</title><rect class="cell" x="873.87" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-19 · 0 solves</title><rect class="cell" x="873.87" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-20 · 0 solves</title><rect class="cell" x="873.87" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-21 · 0 solves</title><rect class="cell" x="893.30" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-22 · 0 solves</title><rect class="cell" x="893.30" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-23 · 0 solves</title><rect class="cell" x="893.30" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-24 · 0 solves</title><rect class="cell" x="893.30" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-25 · 0 solves</title><rect class="cell" x="893.30" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-26 · 0 solves</title><rect class="cell" x="893.30" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-27 · 0 solves</title><rect class="cell" x="893.30" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-28 · 0 solves</title><rect class="cell" x="912.72" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-29 · 0 solves</title><rect class="cell" x="912.72" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2025-12-30 · 0 solves</title><rect class="cell" x="912.72" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2025-12-31" aria-label="2025-12-31 · 1 solve"><title>2025-12-31 · 1 solve</title><rect class="cell" x="912.72" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<a href="#day-2026-01-01" aria-label="2026-01-01 · 1 solve"><title>2026-01-01 · 1 solve</title><rect class="cell" x="912.72" y="229.70" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2026-01-02 · 0 solves</title><rect class="cell" x="912.72" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2026-01-03" aria-label="2026-01-03 · 1 solve · kaleido · Kernel AAR·AAW · cred overwrite"><title>2026-01-03 · 1 solve · kaleido · Kernel AAR·AAW · cred overwrite</title><rect class="cell" x="912.72" y="268.55" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+<polygon points="928.15,269.55 928.15,274.55 923.15,269.55" fill="#2563eb"/>
+</a>
+<g><title>2026-01-04 · 0 solves</title><rect class="cell" x="932.15" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-05 · 0 solves</title><rect class="cell" x="932.15" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-06 · 0 solves</title><rect class="cell" x="932.15" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-07 · 0 solves</title><rect class="cell" x="932.15" y="210.28" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-08 · 0 solves</title><rect class="cell" x="932.15" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-09 · 0 solves</title><rect class="cell" x="932.15" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-10 · 0 solves</title><rect class="cell" x="932.15" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-11 · 0 solves</title><rect class="cell" x="951.57" y="152.00" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-12 · 0 solves</title><rect class="cell" x="951.57" y="171.43" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-13 · 0 solves</title><rect class="cell" x="951.57" y="190.85" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<a href="#day-2026-01-14" aria-label="2026-01-14 · 1 solve"><title>2026-01-14 · 1 solve</title><rect class="cell" x="951.57" y="210.28" width="16.43" height="16.43" rx="2" fill="#a8e3b9"/>
+</a>
+<g><title>2026-01-15 · 0 solves</title><rect class="cell" x="951.57" y="229.70" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-16 · 0 solves</title><rect class="cell" x="951.57" y="249.13" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<g><title>2026-01-17 · 0 solves</title><rect class="cell" x="951.57" y="268.55" width="16.43" height="16.43" rx="2" fill="#edf0f3"/>
+</g>
+<text x="32" y="319" class="mono main" font-size="11">SELECT AN ACTIVE DAY · 2025.03.24 — 04.02 LONGEST STREAK</text>
+<text x="697" y="318" class="mono muted" font-size="10">LESS</text>
+<rect x="734" y="308" width="10" height="10" rx="2" fill="#edf0f3"/>
+<rect x="749" y="308" width="10" height="10" rx="2" fill="#a8e3b9"/>
+<rect x="764" y="308" width="10" height="10" rx="2" fill="#68cf87"/>
+<rect x="779" y="308" width="10" height="10" rx="2" fill="#2fb85d"/>
+<rect x="794" y="308" width="10" height="10" rx="2" fill="#15803d"/>
+<text x="814" y="318" class="mono muted" font-size="10">MORE</text>
+<rect x="866" y="308" width="10" height="10" rx="2" fill="#68cf87"/>
+<polygon points="875,309 875,314 870,309" fill="#2563eb"/>
+<text x="882" y="318" class="mono muted" font-size="10">KERNEL</text>
+<text x="968" y="340" text-anchor="end" class="mono muted" font-size="10">DREAMHACK SOLVED DATE · ALL CATEGORIES</text>
+</svg>
