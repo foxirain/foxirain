@@ -4,9 +4,9 @@
 
 **Vulnerability Researcher · Systems & Product Security**
 
-I investigate real products and codebases across the Linux kernel, open-source software, AI-agent systems, Windows kernel, and embedded devices. I use automation and LLMs to narrow investigation scope—never as vulnerability proof—and close findings through human validation, controlled reproduction, coordinated disclosure, and upstream evidence.
+I investigate real products across AI-agent platforms, native and embedded software, wireless stacks, web products, and operating-system kernels. Recent work includes code-execution paths in PraisonAI and Langflow, memory-safety flaws in libpng and arduino-esp32, a remotely reachable BLE parser failure in Apache NimBLE, and two Linux kernel CVEs with fixes merged upstream. I use automation and LLMs to narrow investigation scope—never as vulnerability proof—and close findings through human validation, controlled reproduction, coordinated disclosure, and patch evidence.
 
-[Public CVE case studies](https://github.com/foxirain/CVE-public) · [Linux mainline contributions](#linux-mainline-contributions) · [Dreamhack](https://dreamhack.io/users/71306) · [Email](mailto:hataegu0826@gmail.com)
+[Public CVE case studies](https://github.com/foxirain/CVE-public) · [Selected vulnerability research](#selected-vulnerability-research) · [Dreamhack](https://dreamhack.io/users/71306) · [Email](mailto:hataegu0826@gmail.com)
 
 ```text
 attack surface → reachability → broken invariant → controlled reproduction → disclosure → patch
@@ -16,22 +16,25 @@ attack surface → reachability → broken invariant → controlled reproduction
 
 | Evidence | Public record |
 | --- | --- |
-| **15 public CVE case studies** | Published analyses with retained source provenance and SHA-256 evidence manifests |
-| **13 direct public attributions** | Publicly credited vulnerability research outcomes |
-| **2 Linux kernel CVEs** | [CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720) · [CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075) |
-| **3 authored mainline Linux patches** | Two CVE fixes and one separate BPF verifier fix |
+| **15 CVE case studies · 13 direct public attributions** | Published analyses with retained source provenance and SHA-256 evidence manifests |
+| **3 AI-platform / agent cases** | PraisonAI workflow injection · PraisonAI A2A-to-`eval()` RCE · Langflow ToolGuard validation bypass |
+| **3 native / embedded / wireless CVEs** | libpng · arduino-esp32 · Apache NimBLE |
+| **7 web / authorization / product cases** | LinkAce · NamelessMC · OpenFGA · Caddy · listmonk |
+| **2 Linux kernel CVEs · 3 mainline patches** | USB UAC1 · PPP namespace authorization · BPF verifier |
 | **154 Dreamhack Pwnable solves** | [4,901 total Wargame points](https://dreamhack.io/users/71306) · long-term systems exploitation practice |
 
-<sub>The case-study and attribution counts describe different scopes and are not additive.</sub>
+<sub>The case-study and attribution counts describe different scopes and are not additive. The Langflow case is privately documented and does not claim public researcher attribution. Advisory credits appear under foxirain and Amemoyoi.</sub>
 
-## Selected research
+## Selected vulnerability research
 
-| Work | What it demonstrates | Public evidence |
+| Area | Findings and attack surfaces | Evidence |
 | --- | --- | --- |
-| [**CVE-public**](https://github.com/foxirain/CVE-public) | Evidence-preserving vulnerability documentation across memory safety, authorization, SSRF, OAuth, agent security, and CI/CD | 15 case archives · source provenance · per-case evidence hashes |
-| [**Kernel Codex Harness lineage**](https://github.com/foxirain/linux-kernel-codex-harness-v2) | Evidence-driven attention allocation and provenance-aware triage for Linux kernel review | [v1-assisted CVE-2026-31720](https://github.com/foxirain/linux-kernel-codex-harness) · [v2-assisted CVE-2026-53075](https://github.com/foxirain/linux-kernel-codex-harness-v2) |
-| [**Adaptive OSS Vulnerability Harness**](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) | Isolated search hypotheses that converge on a shared evidence contract across languages and product classes | Public research lineage · explicit provenance and validity limits |
-| [**Agent Security Company**](https://github.com/foxirain/agent-security-company) | Containment, identity, privilege, network, QA, and disclosure boundaries around AI-assisted research | Evidence ledger · publication-safety policy · 140/140 public regression checks |
+| **AI platforms & agent workflows** | Langflow ToolGuard validation bypass to stored Python execution · PraisonAI public A2A-to-LLM-tool `eval()` RCE · privileged workflow command injection from an untrusted fork branch name | [CVE-2026-9135](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135) · [CVE-2026-47391](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [CVE-2026-48168](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) |
+| **Native, embedded & wireless** | libpng ARM/AArch64 NEON OOB read/write · arduino-esp32 NBNS OOB read and stack overflow · Apache NimBLE truncated BLE ATT response assertion | [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636) · [CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815) |
+| **Web, authorization & product security** | LinkAce SSRF and private-note exposure · NamelessMC hidden-content and OAuth-state flaws · OpenFGA cache-isolation bypass · Caddy path-normalization mismatch · listmonk permission failures | [7 case archives](https://github.com/foxirain/CVE-public) |
+| **Linux kernel & upstream** | USB UAC1 stack OOB write · cross-netns PPP capability validation · two CVE fixes and a separate BPF verifier fix authored upstream | [CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720) · [CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075) · [3 mainline patches](#linux-mainline-contributions) |
+
+**Supporting research tooling:** [Adaptive OSS Vulnerability Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) · [Kernel Codex Harness](https://github.com/foxirain/linux-kernel-codex-harness-v2) · [Agent Security Company](https://github.com/foxirain/agent-security-company)
 
 ## Linux mainline contributions
 
@@ -53,10 +56,10 @@ attack surface → reachability → broken invariant → controlled reproduction
 
 ## Research interests
 
-Linux kernel security · vulnerability research · product and OSS security · embedded and device security · Windows kernel security · reproducible security validation
+AI platform and agent security · native and embedded security · wireless protocol and parser security · product and OSS security · operating-system security · reproducible vulnerability validation
 
 ## Contact
 
-I am preparing for vulnerability research, product security, and systems security roles.
+I am preparing for vulnerability research, product security, AI/agent security, and systems security roles.
 
 **Email:** [hataegu0826@gmail.com](mailto:hataegu0826@gmail.com)

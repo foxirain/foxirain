@@ -4,9 +4,9 @@
 
 **Vulnerability Researcher · Systems & Product Security**
 
-Linux Kernel, 오픈소스, AI 에이전트 시스템, Windows Kernel, 임베디드 기기처럼 실제 제품과 코드베이스를 직접 분석합니다. 자동화와 LLM은 조사 범위를 좁히는 데 사용하되 취약점의 증거로 취급하지 않으며, 공격자 도달 가능성·통제된 재현·책임 있는 공개·upstream 결과를 사람이 직접 검증합니다.
+AI 에이전트 플랫폼, 네이티브·임베디드 소프트웨어, 무선 스택, 웹 제품, 운영체제 커널 등 실제 제품의 보안 경계를 분석합니다. 최근에는 PraisonAI와 Langflow의 코드 실행 경로, libpng와 arduino-esp32의 메모리 안전성 결함, Apache NimBLE의 원격 BLE parser 오류, 그리고 수정이 mainline에 반영된 Linux 커널 CVE 2건을 다뤘습니다. 자동화와 LLM은 조사 범위를 좁히는 데 사용하되 취약점의 증거로 취급하지 않으며, 공격자 도달 가능성·통제된 재현·책임 있는 공개·패치 근거를 사람이 직접 검증합니다.
 
-[공개 CVE 사례](https://github.com/foxirain/CVE-public) · [Linux mainline 기여](#linux-mainline-기여) · [Dreamhack](https://dreamhack.io/users/71306) · [이메일](mailto:hataegu0826@gmail.com)
+[공개 CVE 사례](https://github.com/foxirain/CVE-public) · [대표 취약점 연구](#대표-취약점-연구) · [Dreamhack](https://dreamhack.io/users/71306) · [이메일](mailto:hataegu0826@gmail.com)
 
 ```text
 공격 표면 → 도달 가능성 → 불변조건 위반 → 통제된 재현 → 공개 → 패치
@@ -16,22 +16,25 @@ Linux Kernel, 오픈소스, AI 에이전트 시스템, Windows Kernel, 임베디
 
 | 증거 | 공개 기록 |
 | --- | --- |
-| **공개 CVE 사례 15건** | source provenance와 SHA-256 evidence manifest를 보존한 공개 분석 자료 |
-| **직접 공개 귀속 13건** | 공개 기록에서 직접 확인 가능한 취약점 연구 성과 |
-| **Linux Kernel CVE 2건** | [CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720) · [CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075) |
-| **Linux mainline authored patch 3건** | CVE 수정 2건과 별도 BPF verifier 수정 1건 |
+| **CVE 사례 15건 · 직접 공개 귀속 13건** | source provenance와 SHA-256 evidence manifest를 보존한 공개 분석 자료 |
+| **AI Platform / Agent 사례 3건** | PraisonAI workflow injection · PraisonAI A2A-to-`eval()` RCE · Langflow ToolGuard 검증 우회 |
+| **Native / Embedded / Wireless CVE 3건** | libpng · arduino-esp32 · Apache NimBLE |
+| **Web / Authorization / Product 사례 7건** | LinkAce · NamelessMC · OpenFGA · Caddy · listmonk |
+| **Linux Kernel CVE 2건 · mainline patch 3건** | USB UAC1 · PPP namespace authorization · BPF verifier |
 | **Dreamhack Pwnable 154문제** | [Wargame 총 4,901점](https://dreamhack.io/users/71306) · 장기 시스템 익스플로잇 학습 |
 
-<sub>공개 사례 수와 직접 귀속 수는 집계 범위가 다르며 서로 더하는 수치가 아닙니다.</sub>
+<sub>공개 사례 수와 직접 귀속 수는 집계 범위가 다르며 서로 더하는 수치가 아닙니다. Langflow 사례는 개인 보고 증빙 사례이며 공식 공개 연구자 귀속을 주장하지 않습니다. Advisory credit은 foxirain과 Amemoyoi 이름으로 공개됩니다.</sub>
 
-## 대표 연구
+## 대표 취약점 연구
 
-| 연구 | 증명하는 역량 | 공개 증거 |
+| 분야 | 취약점과 공격 표면 | 근거 |
 | --- | --- | --- |
-| [**CVE-public**](https://github.com/foxirain/CVE-public) | 메모리 안전성, 인가, SSRF, OAuth, 에이전트 보안, CI/CD에 걸친 provenance 중심 취약점 문서화 | 15개 사례 · source provenance · 사례별 evidence hash |
-| [**Kernel Codex Harness 계열**](https://github.com/foxirain/linux-kernel-codex-harness-v2) | Linux Kernel 검토를 위한 evidence-driven attention allocation과 provenance-aware triage | [v1-assisted CVE-2026-31720](https://github.com/foxirain/linux-kernel-codex-harness) · [v2-assisted CVE-2026-53075](https://github.com/foxirain/linux-kernel-codex-harness-v2) |
-| [**Adaptive OSS Vulnerability Harness**](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) | 서로 분리된 탐색 가설을 여러 언어와 제품군에 공통된 evidence contract로 수렴 | 공개 연구 lineage · 명시적인 provenance와 validity 한계 |
-| [**Agent Security Company**](https://github.com/foxirain/agent-security-company) | AI-assisted 연구의 격리·identity·권한·network·QA·공개 경계 | evidence ledger · publication-safety policy · 공개 regression 140/140 |
+| **AI 플랫폼·Agent Workflow** | Langflow ToolGuard 검증 우회를 통한 stored Python execution · PraisonAI 공개 A2A에서 LLM tool `eval()`까지 이어지는 RCE · 신뢰하지 않은 fork branch 이름을 통한 privileged workflow command injection | [CVE-2026-9135](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135) · [CVE-2026-47391](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [CVE-2026-48168](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) |
+| **Native·Embedded·Wireless** | libpng ARM/AArch64 NEON OOB read/write · arduino-esp32 NBNS OOB read와 stack overflow · Apache NimBLE의 잘린 BLE ATT 응답 assertion | [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636) · [CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815) |
+| **Web·Authorization·Product Security** | LinkAce SSRF와 private note 노출 · NamelessMC hidden content와 OAuth state 결함 · OpenFGA cache isolation 우회 · Caddy path normalization 불일치 · listmonk 권한 누락 | [7개 사례 archive](https://github.com/foxirain/CVE-public) |
+| **Linux Kernel·Upstream** | USB UAC1 stack OOB write · cross-netns PPP capability validation · CVE 수정 2건과 별도 BPF verifier 수정 upstream 반영 | [CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720) · [CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075) · [mainline patch 3건](#linux-mainline-기여) |
+
+**보조 연구 도구:** [Adaptive OSS Vulnerability Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) · [Kernel Codex Harness](https://github.com/foxirain/linux-kernel-codex-harness-v2) · [Agent Security Company](https://github.com/foxirain/agent-security-company)
 
 ## Linux mainline 기여
 
@@ -53,10 +56,10 @@ Linux Kernel, 오픈소스, AI 에이전트 시스템, Windows Kernel, 임베디
 
 ## 관심 연구 분야
 
-Linux Kernel Security · Vulnerability Research · Product / OSS Security · Embedded / Device Security · Windows Kernel Security · Reproducible Security Validation
+AI Platform / Agent Security · Native / Embedded Security · Wireless Protocol / Parser Security · Product / OSS Security · Operating-System Security · Reproducible Vulnerability Validation
 
 ## 연락처
 
-Vulnerability Research, Product Security, Systems Security 직무를 준비하고 있습니다.
+Vulnerability Research, Product Security, AI / Agent Security, Systems Security 직무를 준비하고 있습니다.
 
 **Email:** [hataegu0826@gmail.com](mailto:hataegu0826@gmail.com)
