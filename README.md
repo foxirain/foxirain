@@ -18,12 +18,6 @@ I research vulnerabilities in systems software—native code, embedded and wirel
 
 Memory safety, parser robustness, privilege boundaries, and upstream remediation are the core of my work.
 
-### Native, embedded and wireless
-
-- **[libpng · CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)** — ARM/AArch64 NEON palette expansion could read and write beyond a short row buffer.
-- **[arduino-esp32 · CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429)** — An attacker-controlled NBNS `name_len` caused an out-of-bounds read and stack overflow.
-- **[Apache NimBLE · CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)** — A truncated BLE ATT Read Multiple Variable response reached a remotely triggerable host assertion.
-
 ### Linux kernel and upstream
 
 I authored two CVE fixes and one separate verifier fix, all merged into Linux mainline.
@@ -31,6 +25,12 @@ I authored two CVE fixes and one separate verifier fix, all merged into Linux ma
 - **[USB UAC1 · CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720)** — Control-request length validation for a 4-byte stack OOB write · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e0e34d85cd46ceb37d16054e97a373a32770f6c)
 - **[PPP namespaces · CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075)** — Capability validation against the target network namespace · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2bb6379416fd19f44c3423a00bfd8626259f6067)
 - **BPF verifier** — Oversized access-size validation and regression coverage · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de36adca634634c205a9eb8b56a28175ab7abf5f)
+
+### Native, embedded and wireless
+
+- **[libpng · CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)** — ARM/AArch64 NEON palette expansion could read and write beyond a short row buffer.
+- **[arduino-esp32 · CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429)** — An attacker-controlled NBNS `name_len` caused an out-of-bounds read and stack overflow.
+- **[Apache NimBLE · CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)** — A truncated BLE ATT Read Multiple Variable response reached a remotely triggerable host assertion.
 
 ## Product security research
 

@@ -18,12 +18,6 @@
 
 메모리 안전성, 파서 견고성, 권한 경계, upstream 수정이 연구의 중심입니다.
 
-### 네이티브·임베디드·무선
-
-- **[libpng · CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)** — ARM/AArch64 NEON 팔레트 확장 경로에서 짧은 row buffer 밖을 읽고 쓸 수 있는 결함입니다.
-- **[arduino-esp32 · CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429)** — 공격자가 통제하는 NBNS `name_len`으로 OOB read와 stack overflow가 발생합니다.
-- **[Apache NimBLE · CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)** — 잘린 BLE ATT Read Multiple Variable 응답이 원격에서 도달 가능한 host assertion으로 이어집니다.
-
 ### Linux 커널과 upstream
 
 CVE 수정 2건과 별도 verifier 수정 1건을 직접 작성했고, 모두 Linux mainline에 병합되었습니다.
@@ -31,6 +25,12 @@ CVE 수정 2건과 별도 verifier 수정 1건을 직접 작성했고, 모두 Li
 - **[USB UAC1 · CVE-2026-31720](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720)** — 4-byte stack OOB write를 막는 control-request length 검증 · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e0e34d85cd46ceb37d16054e97a373a32770f6c)
 - **[PPP namespace · CVE-2026-53075](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-53075)** — target network namespace 기준 capability 검증 · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2bb6379416fd19f44c3423a00bfd8626259f6067)
 - **BPF verifier** — oversized access-size 검증과 regression coverage · [mainline fix](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de36adca634634c205a9eb8b56a28175ab7abf5f)
+
+### 네이티브·임베디드·무선
+
+- **[libpng · CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)** — ARM/AArch64 NEON 팔레트 확장 경로에서 짧은 row buffer 밖을 읽고 쓸 수 있는 결함입니다.
+- **[arduino-esp32 · CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429)** — 공격자가 통제하는 NBNS `name_len`으로 OOB read와 stack overflow가 발생합니다.
+- **[Apache NimBLE · CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)** — 잘린 BLE ATT Read Multiple Variable 응답이 원격에서 도달 가능한 host assertion으로 이어집니다.
 
 ## 제품 보안 연구
 
