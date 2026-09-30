@@ -29,6 +29,7 @@
 - **GW TakeDown** · Galaxy Watch 펌웨어 보안 연구. **Samsung Mobile Security 제보 1건 보상 지급 결정**.  
   펌웨어 리호스팅·실행 재생·검증 흐름 분석을 위한 [RehostRace](https://github.com/foxirain/rehostrace)·[VeriRehost](https://github.com/foxirain/verirehost) 직접 설계·개발.
 - 연구 자동화와 에이전트 실행 격리를 위한 [Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness)·[Agent Security Company](https://github.com/foxirain/agent-security-company) 개발.
+
 **2025**
 
 - **은상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
