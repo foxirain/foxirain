@@ -29,9 +29,6 @@
 - **GW TakeDown** · Galaxy Watch firmware security research. **Samsung Mobile Security approved a reward for one report**.  
   Designed and built [RehostRace](https://github.com/foxirain/rehostrace) and [VeriRehost](https://github.com/foxirain/verirehost) for firmware rehosting, execution replay, and analysis of verification flows.
 - Built [Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) and [Agent Security Company](https://github.com/foxirain/agent-security-company) for research automation and isolated agent execution.
-
-[Research notes and contribution scope](./docs/research.en.md)
-
 **2025**
 
 - **Silver Award**, Student Division, Gangwon Cybersecurity Hacking Defense Competition (GCHD).
