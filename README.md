@@ -32,6 +32,7 @@
 
 **2025**
 
+- **Freelance Development** · Designed and delivered a **112-channel LED control system** for a psychology research lab, including custom hardware, Raspberry Pi 5 control software, and a 19-page operating manual.
 - **Silver Award**, Student Division, Gangwon Cybersecurity Hacking Defense Competition (GCHD).
 - Solved **154 Pwnable challenges** and reached an **overall Wargame rank in the 200s** on [Dreamhack](https://dreamhack.io/users/71306).
 
