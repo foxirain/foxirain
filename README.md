@@ -6,6 +6,7 @@
 
 <!-- security-contribution-logos:start -->
 <p align="center">
+  <strong>Security Contributions</strong><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/linux-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/linux-light.svg">

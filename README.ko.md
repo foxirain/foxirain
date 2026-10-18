@@ -6,6 +6,7 @@
 
 <!-- security-contribution-logos:start -->
 <p align="center">
+  <strong>보안 기여</strong><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/linux-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/linux-light.svg">
