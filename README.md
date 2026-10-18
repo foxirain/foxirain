@@ -23,11 +23,12 @@
 **2026**
 
 - Authored **3 patches merged into Linux mainline**, fixing USB UAC1, PPP, and BPF verifier issues. [UAC1](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e0e34d85cd46ceb37d16054e97a373a32770f6c) · [PPP](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2bb6379416fd19f44c3423a00bfd8626259f6067) · [BPF](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de36adca634634c205a9eb8b56a28175ab7abf5f)
-- Discovered ARM/AArch64 NEON memory errors in **libpng** and authored the fix shipped in **1.6.56**. [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)
+- Discovered **CVE-2026-33636** in **libpng**, rated **Critical** in Google’s Android Security Bulletin. Co-authored the security patch shipped in **libpng 1.6.56** and integrated into **Google AOSP and Firefox**. The fix also shipped in **Oracle JDK and Samsung Galaxy** updates. Listed in libpng’s **AUTHORS**. [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)
 - Reported **3 Critical vulnerabilities** across AI products (PraisonAI and Langflow). [PraisonAI A2A](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [PraisonAI CI](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) · [Langflow](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135)
 - Reported vulnerabilities in **ESP32 NBNS** and **Apache NimBLE ATT**, published as [CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) and [CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815).
 - **GW TakeDown** · Galaxy Watch firmware security research. **Samsung Mobile Security approved a reward for one report**.  
   Designed and built [RehostRace](https://github.com/foxirain/rehostrace) and [VeriRehost](https://github.com/foxirain/verirehost) for firmware rehosting, execution replay, and analysis of verification flows.
+- Received the **maximum reward** from **DenchiSoft’s bug bounty program** for reporting a security vulnerability (**$1,000**).
 - Built [Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) and [Agent Security Company](https://github.com/foxirain/agent-security-company) for research automation and isolated agent execution.
 
 **2025**
