@@ -6,41 +6,46 @@
 
 <!-- security-contribution-logos:start -->
 <p align="center">
-  <strong>Security Contributions</strong><br>
+  <strong>Security Contributor</strong><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/linux-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/linux-light.svg">
-    <img alt="Linux" src="./assets/brands/linux-light.svg" width="60" height="56">
+    <img alt="Linux" src="./assets/brands/linux-light.svg" width="54" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/libpng-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/libpng-light.svg">
-    <img alt="libpng" src="./assets/brands/libpng-light.svg" width="100" height="56">
+    <img alt="libpng" src="./assets/brands/libpng-light.svg" width="84" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/android-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/android-light.svg">
-    <img alt="Android" src="./assets/brands/android-light.svg" width="72" height="56">
+    <img alt="Android" src="./assets/brands/android-light.svg" width="60" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/ubuntu-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/ubuntu-light.svg">
-    <img alt="Ubuntu" src="./assets/brands/ubuntu-light.svg" width="64" height="56">
+    <img alt="Ubuntu" src="./assets/brands/ubuntu-light.svg" width="54" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/firefox-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/firefox-light.svg">
-    <img alt="Firefox" src="./assets/brands/firefox-light.svg" width="64" height="56">
+    <img alt="Firefox" src="./assets/brands/firefox-light.svg" width="54" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/oracle-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/oracle-light.svg">
-    <img alt="Oracle" src="./assets/brands/oracle-light.svg" width="120" height="56">
+    <img alt="Oracle" src="./assets/brands/oracle-light.svg" width="104" height="56">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/samsung-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/brands/samsung-light.svg">
-    <img alt="Samsung" src="./assets/brands/samsung-light.svg" width="125" height="56">
+    <img alt="Samsung" src="./assets/brands/samsung-light.svg" width="108" height="56">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/ibm-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/brands/ibm-light.svg">
+    <img alt="IBM (Langflow)" src="./assets/brands/ibm-light.svg" width="70" height="56">
   </picture>
 </p>
 <!-- security-contribution-logos:end -->
