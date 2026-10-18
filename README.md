@@ -14,6 +14,7 @@
 ## Experience
 
 - **CASO Lab, Kangwon National University** · Undergraduate Research Intern  
+  Computer Architecture · Artificial Intelligence · Security · Operating System  
   May 2024 – Jan 2025
 - **WhiteHat School, KITRI** · Cohort 2  
   Mar – Sep 2024
