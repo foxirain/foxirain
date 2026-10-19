@@ -8,49 +8,10 @@
 <p align="center">
   <strong>Security Contributor to</strong><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/linux-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/linux-light.svg">
-    <img alt="Linux" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/linux-light.svg" width="54" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/libpng-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/libpng-light.svg">
-    <img alt="libpng" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/libpng-light.svg" width="84" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/android-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/android-light.svg">
-    <img alt="Android" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/android-light.svg" width="60" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ubuntu-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ubuntu-light.svg">
-    <img alt="Ubuntu" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ubuntu-light.svg" width="54" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/firefox-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/firefox-light.svg">
-    <img alt="Firefox" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/firefox-light.svg" width="54" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/oracle-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/oracle-light.svg">
-    <img alt="Oracle" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/oracle-light.svg" width="104" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/samsung-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/samsung-light.svg">
-    <img alt="Samsung" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/samsung-light.svg" width="108" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/espressif-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/brands/espressif-light.svg">
-    <img alt="Espressif (ESP32)" src="./assets/brands/espressif-light.svg" width="30" height="56">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-light.svg">
-    <img alt="IBM (Langflow)" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-light.svg" width="70" height="56">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="./assets/brands/contributors-mobile-dark.svg">
+    <source media="(max-width: 767px)" srcset="./assets/brands/contributors-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/contributors-desktop-dark.svg">
+    <img alt="Linux Kernel, libpng, Google AOSP, Ubuntu, Mozilla Firefox, Oracle JDK, Samsung Galaxy, ESP32, IBM Langflow" src="./assets/brands/contributors-desktop-light.svg" width="620">
   </picture>
 </p>
 <!-- security-contribution-logos:end -->
