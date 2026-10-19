@@ -43,6 +43,11 @@
     <img alt="Samsung" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/samsung-light.svg" width="108" height="56">
   </picture>
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/espressif-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/brands/espressif-light.svg">
+    <img alt="Espressif (ESP32)" src="./assets/brands/espressif-light.svg" width="30" height="56">
+  </picture>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-light.svg">
     <img alt="IBM (Langflow)" src="https://raw.githubusercontent.com/foxirain/foxirain/e54388002ea4a6a4057eaafc0e341879b3e20179/assets/brands/ibm-light.svg" width="70" height="56">

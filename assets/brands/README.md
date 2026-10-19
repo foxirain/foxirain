@@ -9,6 +9,7 @@ Monochrome, padded variants for the English and Korean profile headers. Original
 | ubuntu | [Original SVG](https://raw.githubusercontent.com/simple-icons/simple-icons/4d29a35c954699b389a834aacc97dd6e7e74143c/icons/ubuntu.svg) | CC0-1.0 |
 | firefox | [Original SVG](https://raw.githubusercontent.com/simple-icons/simple-icons/4d29a35c954699b389a834aacc97dd6e7e74143c/icons/firefoxbrowser.svg) | CC0-1.0 |
 | samsung | [Original SVG](https://raw.githubusercontent.com/simple-icons/simple-icons/4d29a35c954699b389a834aacc97dd6e7e74143c/icons/samsung.svg) | CC0-1.0 |
+| espressif | [Original SVG](https://raw.githubusercontent.com/simple-icons/simple-icons/4d29a35c954699b389a834aacc97dd6e7e74143c/icons/espressif.svg) | CC0-1.0 |
 | oracle | [Original SVG](https://raw.githubusercontent.com/devicons/devicon/6a37858047b0e8d9c9c0e68f4a071fc410652e89/icons/oracle/oracle-original.svg) | MIT |
 
 | ibm (light) | [Original SVG](https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/16b1d35d24787bf34b544f765136f4bb8b886cbb/packages/styles/icons/svg/IBM-8bar-logo--h23.svg) | Apache-2.0 |
