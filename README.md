@@ -1,7 +1,7 @@
 <h1 align="center">Taegu Ha</h1>
 
 <p align="center">
-  Systems &amp; embedded security
+  I dig into kernels, embedded systems, and applications to find vulnerabilities. I build my own research tools, turn findings into working exploits, and contribute fixes upstream.
 </p>
 
 <!-- security-contribution-logos:start -->
