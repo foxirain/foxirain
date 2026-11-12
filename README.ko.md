@@ -21,7 +21,7 @@
     <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="./assets/brands/patched-mobile-dark.svg">
     <source media="(max-width: 767px)" srcset="./assets/brands/patched-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/brands/patched-desktop-dark.svg">
-    <img alt="Android (Critical), Samsung Galaxy, Mozilla Firefox, Ubuntu, Debian, Red Hat" src="./assets/brands/patched-desktop-light.svg" width="620">
+    <img alt="Android, Samsung Galaxy, Mozilla Firefox, Ubuntu, Debian, Red Hat" src="./assets/brands/patched-desktop-light.svg" width="620">
   </picture>
 </p>
 <!-- security-contribution-logos:end -->
