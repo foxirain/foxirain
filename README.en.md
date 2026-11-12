@@ -26,7 +26,7 @@
 - Discovered ARM/AArch64 NEON memory errors in **libpng** and authored the fix shipped in **1.6.56**. [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636)
 - Reported **3 Critical vulnerabilities** across AI products (PraisonAI and Langflow). [PraisonAI A2A](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [PraisonAI CI](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) · [Langflow](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135)
 - Reported vulnerabilities in **ESP32 NBNS** and **Apache NimBLE ATT**, published as [CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) and [CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815).
-- **GW TakeDown** · Galaxy Watch firmware security research. **Samsung Mobile Security approved a reward for one report**.  
+- **GW TakeDown** · Galaxy Watch firmware security research.  
   Designed and built [RehostRace](https://github.com/foxirain/rehostrace) and [VeriRehost](https://github.com/foxirain/verirehost) for firmware rehosting, execution replay, and analysis of verification flows.
 - Built [Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) and [Agent Security Company](https://github.com/foxirain/agent-security-company) for research automation and isolated agent execution.
 
