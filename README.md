@@ -42,6 +42,9 @@
 - **WhiteHat School, KITRI** · Cohort 2  
   Built Windows process-protection drivers in the WhiteGang team project  
   Mar – Sep 2024
+- **Tryangle** · AI and Backend Development  
+  Scene-understanding model experiments and evaluation; server development, production deployment, and API security such as authentication and access control  
+  Jul 2026 – Present
 
 ## Highlights
 
