@@ -37,17 +37,21 @@
 ## Experience
 
 - **강원대학교 CASO Lab** · 학부 연구 인턴  
-  Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석 (GW5)  
+  Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석 (GW5). AVB 해시 검증 도구와 펌웨어 실험용 유선 연결·충전 장비 제작  
   2024.05 – 2025.01
 - **한국정보기술연구원(KITRI) 화이트햇 스쿨** · 2기 수료  
-  팀 프로젝트 WhiteGang에서 Windows 프로세스 보호 드라이버 개발  
-  2024.03 – 2024.09
+  팀 프로젝트 WhiteGang에서 Windows 프로세스 보호를 위한 사용자 모드·커널 드라이버 개발. DLL 로딩 통제와 핸들 접근 권한 제한 구현  
+  2024.03 – 2024.09  
+  <sup>[PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)</sup>
 - **st3p_up** · CTF 팀  
   강원지역 사이버보안 해킹방어대회(GCHD)·CO-SHOW AutoHack에서 Pwnable·하드웨어 보안 담당, 3년 연속 수상  
   2024 – 현재
 - **Tryangle** · AI·백엔드 개발  
   장면 이해 모델 실험·평가, 서버 개발과 운영 배포, 인증·권한 등 API 보안  
   2026.07 – 현재
+- **외주 개발** · 심리학과 연구실 의뢰  
+  112채널 LED 제어 시스템 설계·제작·납품. 하드웨어, Raspberry Pi 5 제어 소프트웨어, 19페이지 운영 매뉴얼 제공  
+  2025.01 – 2025.02
 
 ## Highlights
 
@@ -77,13 +81,6 @@
   펌웨어 리호스팅·실행 재생·검증 흐름 분석을 위한 [RehostRace](https://github.com/foxirain/rehostrace)·[VeriRehost](https://github.com/foxirain/verirehost) 직접 설계·개발.
 - **[Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness)** · 코드·Git 변경 이력·외부 신호를 점수화해 조사할 파일의 우선순위를 정하고, 서로 다른 탐색 전략을 적용한 여러 세션에서 검토 결과·소요 비용에 따라 남은 조사 예산을 재배분하도록 개발.
 - **[Agent Security Company](https://github.com/foxirain/agent-security-company)** · Linux 사용자와 샌드박스 정책으로 에이전트별 파일·네트워크 접근 권한을 제한하고, 별도 QA 에이전트가 연구 결과를 검증하도록 개발.
-
-### 프로젝트
-
-- **외주 개발** (2025) · 심리학과 연구실의 의뢰로 **112채널 LED 제어 시스템** 설계·제작·납품. 하드웨어, Raspberry Pi 5 제어 소프트웨어, 19페이지 운영 매뉴얼 제공.
-- **GW5** (2024) · Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석. AVB 해시 검증 도구와 펌웨어 실험용 유선 연결·충전 장비 제작.
-- **WhiteGang** (2024) · Windows 프로세스 보호를 위한 사용자 모드·커널 드라이버 개발. DLL 로딩 통제와 핸들 접근 권한 제한 구현.  
-  <sup>[PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)</sup>
 
 ### 수상·기록
 

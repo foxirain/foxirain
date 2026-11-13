@@ -37,17 +37,21 @@
 ## Experience
 
 - **CASO Lab, Kangwon National University** · Undergraduate Research Intern  
-  Reverse-engineered Galaxy Watch5 sensor drivers and SensorHub firmware (GW5)  
+  Reverse-engineered Galaxy Watch5 sensor drivers and SensorHub firmware (GW5); built AVB hash verification tools and a custom wired setup for firmware experiments  
   May 2024 – Jan 2025
 - **WhiteHat School, KITRI** · Cohort 2  
-  Built Windows process-protection drivers in the WhiteGang team project  
-  Mar – Sep 2024
+  Developed Windows user-mode and kernel-driver components for process protection in the WhiteGang team project, including DLL loading controls and handle-access restrictions  
+  Mar – Sep 2024  
+  <sup>[PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)</sup>
 - **st3p_up** · CTF Team  
   Pwnable and hardware security challenges at the Gangwon Cybersecurity Hacking Defense Competition (GCHD) and CO-SHOW AutoHack; awards in three consecutive years  
   2024 – Present
 - **Tryangle** · AI and Backend Development  
   Scene-understanding model experiments and evaluation; server development, production deployment, and API security such as authentication and access control  
   Jul 2026 – Present
+- **Freelance Development** · Commissioned by a psychology research lab  
+  Designed and delivered a 112-channel LED control system, including custom hardware, Raspberry Pi 5 control software, and a 19-page operating manual  
+  Jan – Feb 2025
 
 ## Highlights
 
@@ -77,13 +81,6 @@
   Designed and built [RehostRace](https://github.com/foxirain/rehostrace) and [VeriRehost](https://github.com/foxirain/verirehost) for firmware rehosting, execution replay, and analysis of verification flows.
 - **[Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness)** · Built to score and rank source files using code signals, Git history, and external evidence, then run multiple search strategies and reallocate each session’s remaining investigation budget based on review results and cost.
 - **[Agent Security Company](https://github.com/foxirain/agent-security-company)** · Built to enforce per-agent filesystem and network permissions through Linux identities and sandbox policies, with separate QA agents verifying research results.
-
-### Projects
-
-- **Freelance Development** (2025) · Designed and delivered a **112-channel LED control system** for a psychology research lab, including custom hardware, Raspberry Pi 5 control software, and a 19-page operating manual.
-- **GW5** (2024) · Reverse-engineered Galaxy Watch5 sensor drivers and SensorHub firmware; built AVB hash verification tools and a custom wired setup for firmware experiments.
-- **WhiteGang** (2024) · Developed Windows user-mode and kernel-driver components for process protection, including DLL loading controls and handle-access restrictions.  
-  <sup>[PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)</sup>
 
 ### Awards and Records
 
