@@ -51,33 +51,45 @@
 
 ## Highlights
 
-**2026**
+### 취약점 연구 · 2026
 
-- USB UAC1, PPP, BPF verifier의 오류를 수정한 **패치 3건을 직접 작성해 Linux mainline에 반영**. [UAC1](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e0e34d85cd46ceb37d16054e97a373a32770f6c) · [PPP](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2bb6379416fd19f44c3423a00bfd8626259f6067) · [BPF](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de36adca634634c205a9eb8b56a28175ab7abf5f)  
-  UAC1·PPP 수정(**CVE-2026-31720**, **CVE-2026-53075**)은 각각 안정 커널 7개 계열에 백포트됐고 Ubuntu·Debian·SUSE 보안 업데이트로 배포. PPP 수정은 Red Hat Enterprise Linux 8–10에도 배포. [Ubuntu](https://ubuntu.com/security/CVE-2026-53075) · [Debian](https://security-tracker.debian.org/tracker/CVE-2026-53075) · [Red Hat](https://access.redhat.com/security/cve/CVE-2026-53075)  
-  USB UAC1 후속 연구에서 **CVE-2026-31720**과 CVE-2026-31513을 결합한 익스플로잇을 개발. x86-64 QEMU/KVM 환경에서 **SSP·KASLR을 우회하고 root 권한 명령 실행**을 입증. [익스플로잇 보고서](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720/exploit)
-- **libpng**에서 **CVE-2026-33636** 취약점 발견. Google의 Android 보안 공지에서 **Critical**로 분류. 공동 작성한 보안 패치가 **libpng 1.6.56**과 **Google AOSP·Ubuntu·Debian·Red Hat·Firefox**에 반영됐으며, **Oracle JDK·Samsung Galaxy** 업데이트에도 포함. libpng 공식 **AUTHORS**에 기여자로 등재. [CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636) · [libpng](https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3) · [Android bulletin](https://source.android.com/docs/security/bulletin/2026/2026-09-01) · [AOSP](https://android.googlesource.com/platform/external/libpng/+/7d98050ef8d9d17d495eb178b8217548437cedf1) · [Firefox](https://github.com/mozilla-firefox/firefox/blob/53cc4f2877a561606f99d20aafc56e35a395f1e2/media/libpng/CHANGES#L6345-L6347) · [Oracle JDK](https://www.oracle.com/security-alerts/cpujul2026.html#AppendixJAVA) · [Samsung](https://security.samsungmobile.com/securityUpdate.smsb) · [Ubuntu](https://ubuntu.com/security/CVE-2026-33636) · [Debian](https://security-tracker.debian.org/tracker/CVE-2026-33636) · [Red Hat](https://access.redhat.com/security/cve/CVE-2026-33636) · [AUTHORS](https://github.com/pnggroup/libpng/blob/libpng16/AUTHORS)
-- AI 제품(PraisonAI·Langflow)의 **Critical 3건을 포함한 취약점 4건** 분석·제보. [PraisonAI A2A](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [PraisonAI CI](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) · [Langflow Policies](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135) · [Langflow Agentic Assistant](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9196)
-- **ESP32 NBNS·Apache NimBLE ATT**의 임베디드 프로토콜 취약점 제보. [CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429)·[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815) 공개.  
-  ESP32 후속 연구에서 **실제 ESP32-S3에서 네트워크 입력만 사용하는 익스플로잇 체인**을 개발. CVE-2026-41429와 CVE-2024-30166을 결합해 스택 보호를 우회하고 **FreeRTOS 태스크 실행과 1,440바이트 펌웨어 메모리 유출**을 입증. [실기기 익스플로잇](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)
-- **Caddy**·**Moonlight**·SentencePiece에 직접 작성한 보안 수정 반영. **Matter**(connectedhomeip)·libarchive에서 제보 크레딧 획득. [Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)
+- **Linux kernel** · USB UAC1, PPP, BPF verifier의 오류를 수정한 **패치 3건을 직접 작성해 Linux mainline에 반영**.  
+  UAC1·PPP 수정(**CVE-2026-31720**, **CVE-2026-53075**)은 각각 안정 커널 7개 계열에 백포트됐고 Ubuntu·Debian·SUSE 보안 업데이트로 배포. PPP 수정은 Red Hat Enterprise Linux 8–10에도 배포.  
+  USB UAC1 후속 연구에서 **CVE-2026-31720**과 CVE-2026-31513을 결합한 익스플로잇을 개발. x86-64 QEMU/KVM 환경에서 **SSP·KASLR을 우회하고 root 권한 명령 실행**을 입증.  
+  <sup>[UAC1](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e0e34d85cd46ceb37d16054e97a373a32770f6c) · [PPP](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2bb6379416fd19f44c3423a00bfd8626259f6067) · [BPF](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de36adca634634c205a9eb8b56a28175ab7abf5f) · [Ubuntu](https://ubuntu.com/security/CVE-2026-53075) · [Debian](https://security-tracker.debian.org/tracker/CVE-2026-53075) · [Red Hat](https://access.redhat.com/security/cve/CVE-2026-53075) · [익스플로잇 보고서](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-31720/exploit)</sup>
+- **libpng** · **CVE-2026-33636** 취약점 발견. Google의 Android 보안 공지에서 **Critical**로 분류.  
+  공동 작성한 보안 패치가 **libpng 1.6.56**과 **Google AOSP·Ubuntu·Debian·Red Hat·Firefox**에 반영됐으며, **Oracle JDK·Samsung Galaxy** 업데이트에도 포함. libpng 공식 **AUTHORS**에 기여자로 등재.  
+  <sup>[CVE-2026-33636](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-33636) · [libpng](https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3) · [Android bulletin](https://source.android.com/docs/security/bulletin/2026/2026-09-01) · [AOSP](https://android.googlesource.com/platform/external/libpng/+/7d98050ef8d9d17d495eb178b8217548437cedf1) · [Firefox](https://github.com/mozilla-firefox/firefox/blob/53cc4f2877a561606f99d20aafc56e35a395f1e2/media/libpng/CHANGES#L6345-L6347) · [Oracle JDK](https://www.oracle.com/security-alerts/cpujul2026.html#AppendixJAVA) · [Samsung](https://security.samsungmobile.com/securityUpdate.smsb) · [Ubuntu](https://ubuntu.com/security/CVE-2026-33636) · [Debian](https://security-tracker.debian.org/tracker/CVE-2026-33636) · [Red Hat](https://access.redhat.com/security/cve/CVE-2026-33636) · [AUTHORS](https://github.com/pnggroup/libpng/blob/libpng16/AUTHORS)</sup>
+- **AI 제품 (PraisonAI·Langflow)** · **Critical 3건을 포함한 취약점 4건** 분석·제보.  
+  <sup>[PraisonAI A2A](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-47391) · [PraisonAI CI](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-48168) · [Langflow Policies](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9135) · [Langflow Agentic Assistant](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-9196)</sup>
+- **ESP32 NBNS** · 임베디드 프로토콜 취약점 제보. CVE-2026-41429 공개.  
+  ESP32 후속 연구에서 **실제 ESP32-S3에서 네트워크 입력만 사용하는 익스플로잇 체인**을 개발. CVE-2026-41429와 CVE-2024-30166을 결합해 스택 보호를 우회하고 **FreeRTOS 태스크 실행과 1,440바이트 펌웨어 메모리 유출**을 입증.  
+  <sup>[CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [실기기 익스플로잇](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)</sup>
+- **Apache NimBLE ATT** · 임베디드 프로토콜 취약점 제보. CVE-2026-45815 공개.  
+  <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
+- **Caddy·Moonlight·SentencePiece** · 직접 작성한 보안 수정 반영. **Matter**(connectedhomeip)·libarchive에서 제보 크레딧 획득.  
+  <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
+- **DenchiSoft** · 보안 취약점을 제보해 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**).
+
+### 연구 도구 · 2026
+
 - **GW TakeDown** · Galaxy Watch 펌웨어 보안 연구.  
   펌웨어 리호스팅·실행 재생·검증 흐름 분석을 위한 [RehostRace](https://github.com/foxirain/rehostrace)·[VeriRehost](https://github.com/foxirain/verirehost) 직접 설계·개발.
-- **DenchiSoft**에 보안 취약점을 제보해 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**).
-- 코드·Git 변경 이력·외부 신호를 점수화해 조사할 파일의 우선순위를 정하고, 서로 다른 탐색 전략을 적용한 여러 세션에서 검토 결과·소요 비용에 따라 남은 조사 예산을 재배분하는 [Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness) 개발. Linux 사용자와 샌드박스 정책으로 에이전트별 파일·네트워크 접근 권한을 제한하고, 별도 QA 에이전트가 연구 결과를 검증하도록 [Agent Security Company](https://github.com/foxirain/agent-security-company) 개발.
+- **[Adaptive Harness](https://github.com/foxirain/codex-adaptive-oss-vuln-harness)** · 코드·Git 변경 이력·외부 신호를 점수화해 조사할 파일의 우선순위를 정하고, 서로 다른 탐색 전략을 적용한 여러 세션에서 검토 결과·소요 비용에 따라 남은 조사 예산을 재배분하도록 개발.
+- **[Agent Security Company](https://github.com/foxirain/agent-security-company)** · Linux 사용자와 샌드박스 정책으로 에이전트별 파일·네트워크 접근 권한을 제한하고, 별도 QA 에이전트가 연구 결과를 검증하도록 개발.
 
-**2025**
+### 프로젝트
 
-- **외주 개발** · 심리학과 연구실의 의뢰로 **112채널 LED 제어 시스템** 설계·제작·납품. 하드웨어, Raspberry Pi 5 제어 소프트웨어, 19페이지 운영 매뉴얼 제공.
-- **은상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
-- [Dreamhack](https://dreamhack.io/users/71306) **Pwnable 154문제** 풀이·**전체 Wargame 200위권** 달성.
+- **외주 개발** (2025) · 심리학과 연구실의 의뢰로 **112채널 LED 제어 시스템** 설계·제작·납품. 하드웨어, Raspberry Pi 5 제어 소프트웨어, 19페이지 운영 매뉴얼 제공.
+- **GW5** (2024) · Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석. AVB 해시 검증 도구와 펌웨어 실험용 유선 연결·충전 장비 제작.
+- **WhiteGang** (2024) · Windows 프로세스 보호를 위한 사용자 모드·커널 드라이버 개발. DLL 로딩 통제와 핸들 접근 권한 제한 구현.  
+  <sup>[PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)</sup>
 
-**2024**
+### 수상·기록
 
-- **GW5** · Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석. AVB 해시 검증 도구와 펌웨어 실험용 유선 연결·충전 장비 제작.
-- **WhiteGang** · Windows 프로세스 보호를 위한 사용자 모드·커널 드라이버 개발. DLL 로딩 통제와 핸들 접근 권한 제한 구현. [PalAnticheat](https://github.com/foxirain/PalAnticheat) · [PalAnticheatEx](https://github.com/foxirain/PalAnticheatEx)
-- **협의회장상**, CO-SHOW AutoHack.
-
-**2023**
-
-- **우수상**, 춘천시 공공데이터 활용 아이디어 공모전.
+- 2026 · **동상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
+- 2026 · **장려상**, 한이음 드림업 공모전 (Tryangle).
+- 2025 · **은상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
+- 2025 · [Dreamhack](https://dreamhack.io/users/71306) **Pwnable 154문제** 풀이·**전체 Wargame 200위권** 달성.
+- 2024 · **협의회장상**, CO-SHOW AutoHack.
+- 2023 · **우수상**, 춘천시 공공데이터 활용 아이디어 공모전.
