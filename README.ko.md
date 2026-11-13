@@ -37,9 +37,10 @@
 ## Experience
 
 - **강원대학교 CASO Lab** · 학부 연구 인턴  
-  컴퓨터 구조·인공지능·보안·운영체제 연구실  
+  Galaxy Watch5 센서 드라이버·SensorHub 펌웨어 역분석 (GW5)  
   2024.05 – 2025.01
 - **한국정보기술연구원(KITRI) 화이트햇 스쿨** · 2기 수료  
+  팀 프로젝트 WhiteGang에서 Windows 프로세스 보호 드라이버 개발  
   2024.03 – 2024.09
 
 ## Highlights

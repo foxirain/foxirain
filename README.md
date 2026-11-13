@@ -37,9 +37,10 @@
 ## Experience
 
 - **CASO Lab, Kangwon National University** · Undergraduate Research Intern  
-  Computer Architecture · Artificial Intelligence · Security · Operating System  
+  Reverse-engineered Galaxy Watch5 sensor drivers and SensorHub firmware (GW5)  
   May 2024 – Jan 2025
 - **WhiteHat School, KITRI** · Cohort 2  
+  Built Windows process-protection drivers in the WhiteGang team project  
   Mar – Sep 2024
 
 ## Highlights
