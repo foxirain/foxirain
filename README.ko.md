@@ -73,7 +73,8 @@
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
 - **Caddy·Moonlight·SentencePiece** · 직접 작성한 보안 수정 반영. **Matter**(connectedhomeip)·libarchive에서 제보 크레딧 획득.  
   <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
-- **DenchiSoft** · 보안 취약점을 제보해 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**).
+- **VTube Studio** · 보안 취약점을 제보해 DenchiSoft 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**). **Security Hall of Fame** 등재.  
+  <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 
 ### 연구 도구 · 2026
 
@@ -87,6 +88,6 @@
 - 2026 · **동상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
 - 2026 · **장려상**, 한이음 드림업 공모전 (Tryangle).
 - 2025 · **은상**, 강원지역 사이버보안 해킹방어대회(GCHD) 학생부.
-- 2025 · [Dreamhack](https://dreamhack.io/users/71306) **Pwnable 154문제** 풀이·**전체 Wargame 200위권** 달성.
+- 2025 · [Dreamhack](https://dreamhack.io/users/71306) LLM 도움 없이 **Pwnable 154문제** 풀이·**전체 Wargame 200위권** 달성.
 - 2024 · **협의회장상**, CO-SHOW AutoHack.
 - 2023 · **우수상**, 춘천시 공공데이터 활용 아이디어 공모전.

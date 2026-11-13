@@ -73,7 +73,8 @@
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
 - **Caddy, Moonlight, and SentencePiece** · Authored security fixes merged upstream; reports credited by **Matter** (connectedhomeip) and libarchive.  
   <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
-- **DenchiSoft** · Received the **maximum reward** from its **bug bounty program** for reporting a security vulnerability (**$1,000**).
+- **VTube Studio** · Received the **maximum reward** from DenchiSoft’s **bug bounty program** for reporting a security vulnerability (**$1,000**). Listed in the **Security Hall of Fame**.  
+  <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 
 ### Research Tools · 2026
 
@@ -87,6 +88,6 @@
 - 2026 · **Bronze Award**, Student Division, Gangwon Cybersecurity Hacking Defense Competition (GCHD).
 - 2026 · **Encouragement Award**, Hanium Dreamup Competition (Tryangle).
 - 2025 · **Silver Award**, Student Division, Gangwon Cybersecurity Hacking Defense Competition (GCHD).
-- 2025 · Solved **154 Pwnable challenges** and reached an **overall Wargame rank in the 200s** on [Dreamhack](https://dreamhack.io/users/71306).
+- 2025 · Solved **154 Pwnable challenges** without LLM assistance and reached an **overall Wargame rank in the 200s** on [Dreamhack](https://dreamhack.io/users/71306).
 - 2024 · **Council Chair's Award**, CO-SHOW AutoHack.
 - 2023 · **Excellence Award**, Chuncheon Public Data Idea Competition.
