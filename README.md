@@ -42,6 +42,9 @@
 - **WhiteHat School, KITRI** · Cohort 2  
   Built Windows process-protection drivers in the WhiteGang team project  
   Mar – Sep 2024
+- **st3p_up** · CTF Team  
+  Pwnable and hardware security challenges at the Gangwon Cybersecurity Hacking Defense Competition (GCHD) and CO-SHOW AutoHack; awards in three consecutive years  
+  2024 – Present
 - **Tryangle** · AI and Backend Development  
   Scene-understanding model experiments and evaluation; server development, production deployment, and API security such as authentication and access control  
   Jul 2026 – Present
