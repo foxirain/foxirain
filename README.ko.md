@@ -69,10 +69,18 @@
 - **ESP32 NBNS** · 임베디드 프로토콜 취약점 제보. CVE-2026-41429 공개.  
   ESP32 후속 연구에서 **실제 ESP32-S3에서 네트워크 입력만 사용하는 익스플로잇 체인**을 개발. CVE-2026-41429와 CVE-2024-30166을 결합해 스택 보호를 우회하고 **FreeRTOS 태스크 실행과 1,440바이트 펌웨어 메모리 유출**을 입증.  
   <sup>[CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [실기기 익스플로잇](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)</sup>
+- **SentencePiece** (google/sentencepiece) · Heap out-of-bounds write를 발견하고 수정 패치를 직접 작성해 반영. **Google Bug Hunters Honorable Mention**.  
+  <sup>[SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Honorable Mentions](https://bughunters.google.com/leaderboard/honorable-mentions?query=Taegu%20Ha)</sup>
 - **Apache NimBLE ATT** · 임베디드 프로토콜 취약점 제보. CVE-2026-45815 공개.  
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
-- **Caddy·Moonlight·SentencePiece** · 직접 작성한 보안 수정 반영. **Matter**(connectedhomeip)·libarchive에서 제보 크레딧 획득.  
-  <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
+- **Caddy** · 원격 관리 API의 접근 제어 보안 수정 2건을 직접 작성해 반영. 그중 하나가 **CVE-2026-45692**.  
+  <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692)</sup>
+- **Moonlight** · RTSP 처리 보안 수정을 직접 작성해 반영. H.264 SPS 처리의 heap out-of-bounds write(**CVE-2026-41210**) 제보.  
+  <sup>[Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210)</sup>
+- **Matter** (connectedhomeip) · 제보 크레딧 획득.  
+  <sup>[Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708)</sup>
+- **libarchive** · 제보 크레딧 획득.  
+  <sup>[libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
 - **VTube Studio** · 보안 취약점을 제보해 DenchiSoft 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**). **Security Hall of Fame** 등재.  
   <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 

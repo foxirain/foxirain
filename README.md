@@ -69,10 +69,18 @@
 - **ESP32 NBNS** · Reported a vulnerability, published as CVE-2026-41429.  
   For ESP32, developed a **network-only exploit chain on physical ESP32-S3 hardware**, combining CVE-2026-41429 with CVE-2024-30166 to bypass stack protection and demonstrate **FreeRTOS task execution and 1,440-byte firmware memory disclosure**.  
   <sup>[CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [Physical exploit](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)</sup>
+- **SentencePiece** (google/sentencepiece) · Found a heap out-of-bounds write and authored the merged fix. **Google Bug Hunters Honorable Mention**.  
+  <sup>[SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Honorable Mentions](https://bughunters.google.com/leaderboard/honorable-mentions?query=Taegu%20Ha)</sup>
 - **Apache NimBLE ATT** · Reported a vulnerability, published as CVE-2026-45815.  
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
-- **Caddy, Moonlight, and SentencePiece** · Authored security fixes merged upstream; reports credited by **Matter** (connectedhomeip) and libarchive.  
-  <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692) · [Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210) · [SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708) · [libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
+- **Caddy** · Authored two merged security fixes for remote admin access control; one is **CVE-2026-45692**.  
+  <sup>[Caddy #7592](https://github.com/caddyserver/caddy/pull/7592) · [Caddy #7673](https://github.com/caddyserver/caddy/pull/7673) · [CVE-2026-45692](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45692)</sup>
+- **Moonlight** · Authored a merged fix hardening RTSP handling; reported a heap out-of-bounds write in H.264 SPS handling (**CVE-2026-41210**).  
+  <sup>[Moonlight #134](https://github.com/moonlight-stream/moonlight-common-c/pull/134) · [CVE-2026-41210](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41210)</sup>
+- **Matter** (connectedhomeip) · Report credited in the fix.  
+  <sup>[Matter #71708](https://github.com/project-chip/connectedhomeip/pull/71708)</sup>
+- **libarchive** · Report credited in the fix.  
+  <sup>[libarchive](https://github.com/libarchive/libarchive/commit/9082a50780f21855b238be3e3670110692042382)</sup>
 - **VTube Studio** · Received the **maximum reward** from DenchiSoft’s **bug bounty program** for reporting a security vulnerability (**$1,000**). Listed in the **Security Hall of Fame**.  
   <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 
