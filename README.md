@@ -70,7 +70,7 @@
   <sup>[CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [Physical exploit](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)</sup>
 - **SentencePiece** (google/sentencepiece) · Found a heap out-of-bounds write and authored the merged fix. **Google Bug Hunters Honorable Mention**.  
   <sup>[SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Honorable Mentions](https://bughunters.google.com/leaderboard/honorable-mentions?query=Taegu%20Ha)</sup>
-- **VTube Studio** · Received the **maximum reward** from DenchiSoft’s **bug bounty program** for reporting a security vulnerability (**$1,000**). Listed in the **Security Hall of Fame**.  
+- **VTube Studio** · Received the **maximum reward** ($1,000) plus an additional $500 from DenchiSoft’s **bug bounty program** for reporting a security vulnerability (**$1,500 in total**). Listed in the **Security Hall of Fame**.  
   <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 - **Apache NimBLE ATT** · Reported a vulnerability, published as CVE-2026-45815.  
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>

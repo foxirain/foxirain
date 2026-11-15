@@ -70,7 +70,7 @@
   <sup>[CVE-2026-41429](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429) · [실기기 익스플로잇](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-41429/exploit)</sup>
 - **SentencePiece** (google/sentencepiece) · Heap out-of-bounds write를 발견하고 수정 패치를 직접 작성해 반영. **Google Bug Hunters Honorable Mention**.  
   <sup>[SentencePiece #1211](https://github.com/google/sentencepiece/pull/1211) · [Honorable Mentions](https://bughunters.google.com/leaderboard/honorable-mentions?query=Taegu%20Ha)</sup>
-- **VTube Studio** · 보안 취약점을 제보해 DenchiSoft 버그바운티 프로그램 **최대 보상금** 수령 (**$1,000**). **Security Hall of Fame** 등재.  
+- **VTube Studio** · 보안 취약점을 제보해 DenchiSoft 버그바운티 프로그램 **최대 보상금**($1,000)과 추가 보상 $500 수령 (**총 $1,500**). **Security Hall of Fame** 등재.  
   <sup>[Security Hall of Fame](https://github.com/DenchiSoft/VTubeStudio/wiki/Bug-Bounty-Program)</sup>
 - **Apache NimBLE ATT** · 임베디드 프로토콜 취약점 제보. CVE-2026-45815 공개.  
   <sup>[CVE-2026-45815](https://github.com/foxirain/CVE-public/tree/main/cases/CVE-2026-45815)</sup>
